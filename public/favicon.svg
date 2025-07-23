@@ -1,0 +1,17 @@
+
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00c6ff" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+  </defs>
+  <circle cx="90" cy="90" r="60" stroke="url(#blueGradient)" stroke-width="10" fill="none" />
+  <rect x="60" y="55" width="45" height="55" rx="4" fill="url(#blueGradient)" fill-opacity="0.1" stroke="url(#blueGradient)" stroke-width="2" />
+  <circle cx="83" cy="70" r="6" fill="url(#blueGradient)" />
+  <rect x="70" y="80" width="25" height="4" rx="2" fill="url(#blueGradient)" />
+  <rect x="70" y="90" width="25" height="4" rx="2" fill="url(#blueGradient)" />
+  <line x1="135" y1="135" x2="170" y2="170" stroke="url(#blueGradient)" stroke-width="10" stroke-linecap="round" />
+  <rect x="120" y="40" width="30" height="25" rx="4" stroke="url(#blueGradient)" stroke-width="2" fill="none" />
+  <text x="127" y="58" fill="url(#blueGradient)" font-family="Arial, sans-serif" font-size="14" font-weight="bold">AI</text>
+</svg>
