@@ -56,6 +56,7 @@ const Upload = () => {
         await kv.set(`resume:${uuid}`, JSON.stringify(data));
         setStatusText('Analysis Complete, Redirecting...');
         console.log(data);
+        navigate(`/resume/${uuid}`);
     };
 
     const handleSubmit = (e:FormEvent<HTMLFormElement>) => {
@@ -74,7 +75,7 @@ const Upload = () => {
         <Navbar />
         <section className="main-section">
             <div className="page-heading py-16">
-                <h1>Smart Feedback for your dream job</h1>
+                <h1>Smart Feedback for your dream Job</h1>
                 {isProcessing ? (
                     <>
                         <h2>{statusText}</h2>
